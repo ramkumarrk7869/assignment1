@@ -1,0 +1,56 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+.terraform.lock.hcl
+
+# Terraform variable files containing secrets
+*.tfvars
+*.tfvars.json
+
+# Sensitive files
+*.pem
+*.key
+*.pfx
+*.crt
+
+# SSH Keys
+.ssh/
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# Azure credentials
+azure-credentials.json
+credentials.json
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# Linux
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Helm
+*.tgz
+
+# OS Files
+.DS_Store
+Thumbs.db
+
